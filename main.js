@@ -1,6 +1,7 @@
 const { crawlPage } = require("./crawl.js");
 const { sortPages, printReport } = require("./report.js");
 
+// must be async function for await crawlPage
 async function main() {
   if (process.argv.length < 3) {
     console.error("Please pass the url you want to crawl.");

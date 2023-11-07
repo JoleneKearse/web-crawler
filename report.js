@@ -17,7 +17,6 @@ function printReport(pages) {
   for (const [url, count] of Object.entries(pages)) {
     console.log(`Found ${count} internal likes to ${url}`);
   }
-  // return pages;
 }
 
 module.exports = {
